@@ -744,7 +744,17 @@ span {
 
 }
 
+.skill.tailwind span {
+    width: 75%;
+
+}
+
 .skill.js span {
+
+    width: 50%;
+}
+
+.skill.typescript span {
 
     width: 50%;
 }
@@ -822,8 +832,19 @@ span {
 
 }
 
+.skill.tailwind span::after {
+    content: "75%";
+
+}
+
+
 
 .skill.js span::after {
+
+    content: "50%";
+}
+
+.skill.typescript span::after {
 
     content: "50%";
 }
